@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WordClock</title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+</head>
+<body class="grey lighten-3" >
+	<div class="container" style="padding:1.2em !important;">
+		<div class="card">
+			<div class="row" style="margin-top:-1em !important;">
+			<h3 class="center-align">Reloj de Letras</h3>
+		</div>
+		<div class="row" id="reloj" style="margin-top:-1em !important;">
+			<div class="col s12 ml12 l12">
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn es">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn es son">S</button></div>
+					<div class="col s1 m1 l1"><button class="btn son">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn son">N</button></div>
+					<div class="col s1 m1 l1"><button class="btn la las">L</button></div>
+					<div class="col s1 m1 l1"><button class="btn la las">A</button></div>
+					<div class="col s1 m1 l1"><button class="btn las">S</button></div>
+					<div class="col s1 m1 l1"><button class="btn una" >U</button></div>
+					<div class="col s1 m1 l1"><button class="btn una" >N</button></div>
+					<div class="col s1 m1 l1"><button class="btn una" >A</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn dos">D</button></div>
+					<div class="col s1 m1 l1"><button class="btn  dos">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn dos">S</button></div>
+					<div class="col s1 m1 l1"><button class="btn ocho">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn ocho">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn ocho">H</button></div>
+					<div class="col s1 m1 l1"><button class="btn ocho once">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn once" >N</button></div>
+					<div class="col s1 m1 l1"><button class="btn once" >C</button></div>
+					<div class="col s1 m1 l1"><button class="btn once" >E</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1 "><button class="btn tres">T</button></div>
+					<div class="col s1 m1 l1"><button class="btn tres">R</button></div>
+					<div class="col s1 m1 l1"><button class="btn tres">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn tres">S</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuatro">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuatro">U</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuatro">A</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuatro" >T</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuatro" >R</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuatro" >O</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn diez">D</button></div>
+					<div class="col s1 m1 l1"><button class="btn diez ">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn diez">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn diez">Z</button></div>
+					<div class="col s1 m1 l1"><button class="btn nueve ">N</button></div>
+					<div class="col s1 m1 l1"><button class="btn nueve ">U</button></div>
+					<div class="col s1 m1 l1"><button class="btn nueve">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn nueve" >V</button></div>
+					<div class="col s1 m1 l1"><button class="btn nueve" >E</button></div>
+					<div class="col s1 m1 l1"><button class="btn " >D</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn cinco">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn cinco ">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn cinco">N</button></div>
+					<div class="col s1 m1 l1"><button class="btn cinco">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn cinco ">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn siete ">S</button></div>
+					<div class="col s1 m1 l1"><button class="btn siete">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn siete">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn siete">T</button></div>
+					<div class="col s1 m1 l1"><button class="btn siete">E</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn ">D</button></div>
+					<div class="col s1 m1 l1"><button class="btn doce ">D</button></div>
+					<div class="col s1 m1 l1"><button class="btn doce">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn doce">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn doce ">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn seis ">S</button></div>
+					<div class="col s1 m1 l1"><button class="btn seis">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn seis">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn seis">S</button></div>
+					<div class="col s1 m1 l1"><button class="btn ">I</button></div>
+				</div>
+				
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn ">N</button></div>
+					<div class="col s1 m1 l1"><button class="btn  ">A</button></div>
+					<div class="col s1 m1 l1"><button class="btn ">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn ">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn y">Y</button></div>
+					<div class="col s1 m1 l1"><button class="btn menos ">M</button></div>
+					<div class="col s1 m1 l1"><button class="btn menos">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn menos">N</button></div>
+					<div class="col s1 m1 l1"><button class="btn menos">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn menos">S</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn ">R</button></div>
+					<div class="col s1 m1 l1"><button class="btn  ">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn ">L</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuarto">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuarto">U</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuarto ">A</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuarto">R</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuarto">T</button></div>
+					<div class="col s1 m1 l1"><button class="btn cuarto">O</button></div>
+					<div class="col s1 m1 l1"><button class="btn ">A</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn veinte">V</button></div>
+					<div class="col s1 m1 l1"><button class="btn  veinte">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn veinte">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn veinte">N</button></div>
+					<div class="col s1 m1 l1"><button class="btn veinte">T</button></div>
+					<div class="col s1 m1 l1"><button class="btn veinte ">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn diezminutos">D</button></div>
+					<div class="col s1 m1 l1"><button class="btn diezminutos">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn diezminutos">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn diezminutos">Z</button></div>
+				</div>
+
+				<div class="row">
+					<div class="col s1 m1 l1 offset-l1 offset-s1"><button class="btn media">M</button></div>
+					<div class="col s1 m1 l1"><button class="btn media ">E</button></div>
+					<div class="col s1 m1 l1"><button class="btn media">D</button></div>
+					<div class="col s1 m1 l1"><button class="btn media">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn media">A</button></div>
+					<div class="col s1 m1 l1"><button class="btn cincominutos ">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn cincominutos">I</button></div>
+					<div class="col s1 m1 l1"><button class="btn cincominutos">N</button></div>
+					<div class="col s1 m1 l1"><button class="btn cincominutos">C</button></div>
+					<div class="col s1 m1 l1"><button class="btn cincominutos">O</button></div>
+				</div>
+
+			</div>
+		</div>
+		</div>
+
+		<input type="hidden" name="hora">
+		<input type="hidden" name="minuto">
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-2.2.0.min.js" ></script>
+	<script src="main.js" ></script>
+</body>
+</html>
